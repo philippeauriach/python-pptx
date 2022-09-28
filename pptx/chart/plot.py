@@ -237,6 +237,7 @@ def PlotFactory(xChart, chart):
     tagname of *xChart*.
     """
     try:
+        print('Searching for plot type', xChart.tag)
         PlotCls = {
             qn("c:areaChart"): AreaPlot,
             qn("c:area3DChart"): Area3DPlot,
