@@ -241,6 +241,7 @@ def PlotFactory(xChart, chart):
             qn("c:areaChart"): AreaPlot,
             qn("c:area3DChart"): Area3DPlot,
             qn("c:barChart"): BarPlot,
+            qn("c:bar3DChart"): BarPlot,
             qn("c:bubbleChart"): BubblePlot,
             qn("c:doughnutChart"): DoughnutPlot,
             qn("c:lineChart"): LinePlot,
